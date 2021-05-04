@@ -2,9 +2,9 @@
 
 ## Autor
 
-**Nombre y Apellidos** | **Correo** | **GitHub** 
+**Nombre y Apellidos** | **Correo** | **GitHub**
 --|--|--
-Ariel Plasencia Díaz | arielplasencia00@gmail.com | [@ArielXL](https://github.com/ArielXL) 
+Ariel Plasencia Díaz | arielplasencia00@gmail.com | [@ArielXL](https://github.com/ArielXL)
 
 ## Introducción
 
@@ -714,7 +714,7 @@ MATCOM CAMPEÓN !!!
 
 ### Enunciado del problema
 
-![](./img/filosofos.jpg)
+![filosofos](./img/filosofos.jpg)
 
 Cinco filósofos pasan su vida pensando y comiendo. Los filósofos comparten una mesa circular rodeada por cinco sillas, una para cada uno de ellos. En el centro de la mesa se encuentra una fuente de arroz, y también sobre la mesa hay cinco tenedores. Cuando un filósofo piensa, no interactúa con sus colegas. Ocasionalmente, un filósofo tiene hambre y trata de coger los dos tenedores que están más cerca de él (colocados entre él y sus vecinos de la derecha y de la izquierda). Un filósofo sólo puede coger un tenedor a la vez y, obviamente, no puede ser el que está en la mano de un vecino. Cuando un filósofo hambriento tiene sus dos tenedores al mismo tiempo come sin soltarlos. Cuando termina de comer, coloca ambos tenedores sobre la mesa y comienza a pensar otra vez. El problema consiste en simular las actividades de los filósofos sin que ocurran condiciones de carrera.
 
