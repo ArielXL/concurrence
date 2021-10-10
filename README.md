@@ -3,7 +3,7 @@
 ## Autor
 
 **Nombre y Apellidos** | **Correo** | **GitHub**
---|--|--
+:-:|:-:|:-:
 Ariel Plasencia Díaz | arielplasencia00@gmail.com | [@ArielXL](https://github.com/ArielXL)
 
 ## Introducción
@@ -112,7 +112,7 @@ public class Cuenta {
 }
 ```
 
-En la clase anterior cabe señalar que la opción set del atributo *Saldo* debe ser protected, así como la función *Extrae* posee el modificador virtual. Todo esto se debe por el principio de la clarividencia ya que en clases futuras pudiera ser necesario redefinir la acción *Extrae* y cambiar el valor de la propiedad *Saldo*. Un ejemplo de esto sería una nueva clase hija *CuentaCrédito*, la cual redefine el método *Extrae* de tal manera que cobre un determinado por ciento en caso de que el saldo quede negativo.
+En la clase anterior cabe señalar que la opción set del atributo *Saldo* debe ser protected, así como la función *Extrae* posee el modificador virtual. Todo esto se debe por el principio de la clarividencia ya que en clases futuras pudiera ser necesario redefinir la acción *Extrae* y cambiar el valor de la propiedad *Saldo*. Un ejemplo de esto sería una nueva clase hija *CuentaCredito*, la cual redefine el método *Extrae* de tal manera que cobre un determinado por ciento en caso de que el saldo quede negativo.
 
 ```c#
 class Program {
@@ -908,7 +908,7 @@ class SleepyBarber:
 También proveemos un algoritmo muy similar al anterior, pero con el objetivo de llevar a cabo distintas simulaciones para este problema. El algoritmo se detiene cuando alcanza la cantidad máxima de clientes. A continuación, algunos resultados:
 
 **Cantidad de sillas** | **Tiempo que se demora el barbero pelando (seg)** | **Tiempo que demoran en llegar los clientes (seg)** | **Cantidad de veces que el barbero se duerme** | **Cantidad de clientes que pudieron entrar** | **Cantidad de clientes que no pudieron entrar** | **Cantidad máxima de clientes** | **Por ciento de los clientes pelados (%)**
---|--|--|--|--|--|--|--
+:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
 5 | 3 | 2 | 0 | 15 | 5 | 20 | 75.00
 10 | 3 | 2 | 0 | 35 | 15 | 50 | 70.00
 15 | 1 | 1 | 0 | 45 | 15 | 60 | 75.00
